@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-light-300.woff2);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome Brands';
+    src: url(../icon/webfonts/fa-brands-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-regular-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Solid';
+    src: url(../icon/webfonts/fa-solid-900.woff2);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome Duotone';
+    src: url(../icon/webfonts/fa-duotone-900.woff2);
+    font-weight: 900;
+}
+
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.fab {
+    font-family: 'FontAwesome Brands';
+    font-weight: 400;
+}
+
+.fas {
+    font-family: 'FontAwesome Solid';
+    font-weight: 900;
+}
+
+.far {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fad {
+    font-family: 'FontAwesome Duotone';
+    font-weight: 900;
+}
+
+
+.fimls::before {
+    content: '\f008';
+    font-size: 50px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.icon-play {
+    position: relative;
+    font-size: 42px;
+}
+
+.icon-play::before {
+    content: '\f04b';
+    font-style: normal;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.icon-play::after {
+    content: '\10f04b';
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
